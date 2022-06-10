@@ -4,31 +4,55 @@
   font-family: "Quicksand";
   color: #333;
 }
-.App {
-  padding: 0px;
-  display: flex;
-  align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+/*app */
+.App{
+  padding: 50px;
+  max-width: 700px;
+  margin: 20px auto;
+  border-bottom: 1px solid #f7f3f3;
 }
-.App h1 {
-  color: #ec3169;
+.App h1{
+  color: red;
 }
-.App .links {
+.App .links{
   margin-left: auto;
 }
-.App a {
+.App a{
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
 }
-.App a:hover {
-  color: #f1356d;
+.App a:hover{
+  color: black;
 }
-.content .Home{
-  max-width: 600px;
-  margin-left: 0px;
-  margin-top: 100px;
-  padding: 40px;
+.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.Home{
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+.blog-preview{
+  padding: 10px 25px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0, 0, 0,0.3);
+}
+.blog-preview h2{
+  padding: 0px 16px;
+  font-size: 20px;
+  color: red;
+  margin-bottom: 8px;
+}
+.blog-preview p{
+  padding: 0px 16px;
+  font-weight: 100px;
+}
+.bloglist h2{
+  padding: 0px 16px;
 }
