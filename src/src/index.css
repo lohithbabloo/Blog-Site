@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0px;
+  font-family: "Quicksand";
+  color: #333;
+}
+/*app */
+.navcontainer{
+  padding: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+  border-bottom: 1px solid #f7f3f3;
+}
+.navcontainer h1{
+  margin: 10px;
+  color: red;
+}
+.navcontainer .links{
+  margin-left: auto;
+}
+.navcontainer a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navcontainer a:hover{
+  color: black;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Home{
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+.bloglist{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.blog-preview{
+  padding: 25px ;
+  margin: 20px 0;
+  border: 1px solid #eee;
+}
+.blog-preview:hover{
+  box-shadow:
+  0.7px 0.7px 5.3px rgba(0, 0, 0, 0.028),
+  2.2px 2.2px 17.9px rgba(0, 0, 0, 0.042),
+  10px 10px 80px rgba(0, 0, 0, 0.07)
+;
+}
+.blog-preview h2{
+  padding: 0px 16px;
+  font-size: 20px;
+  color: red;
+  margin-bottom: 8px;
+}
+.blog-preview p{
+  padding: 0px 16px;
+  font-weight: 100px;
+}
+.bloglist h2{
+  padding: 0px 16px;
+}
+.Navbar a:hover{
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.create h2{
+  margin-left: 280px;
+}
