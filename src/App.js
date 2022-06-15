@@ -15,7 +15,7 @@ function App() {
           </Route>
           <Route path="*Create" element={<Create />}>
           </Route>
-          <Route path="{*blogs:id}" element={<BlogDetails />}>
+          <Route path="{*blogs:id }" element={<BlogDetails />}>
           </Route>
         </Routes>
       </div>
