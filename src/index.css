@@ -69,3 +69,70 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+.blog-details h2{
+  font-size: 30px;
+  color: red;
+  margin-bottom: 20px;
+}
+.blog-details p{
+  color: black;
+  font-weight: 400;
+}
+.blog-details div{
+  margin: 20px 0;
+}
+.blog-details button{
+  border: 0 ;
+  padding: 5px;
+  background: coral ;
+  color: black; 
+  cursor :pointer;
+  border-radius: 8px;
+}
+.create {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label{
+  text-align: left;
+  display: block;
+}
+.create h2{
+  font-size: 20px;
+  color: coral;
+  margin-bottom: 20px;
+}
+.create input{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create textarea{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create select  {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button{
+  border: 0 ;
+  padding: 5px;
+  background: coral ;
+  color: black; 
+  cursor :pointer;
+  border-radius: 8px;
+}
