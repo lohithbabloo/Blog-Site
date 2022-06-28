@@ -7,7 +7,7 @@ const Usefetch = (url) => {
   useEffect(() => {
     fetch(url)
       .then((res) => {
-        console.log(res);
+        console.log({res});
         if (!res.ok) {
           throw Error("data not found");
         }

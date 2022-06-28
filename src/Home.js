@@ -7,7 +7,7 @@ const Home = () => {
     data: blogs,
     isloading,
     errorstate,
-  } = usefetch("http://localhost:4000/blogs");
+  } = usefetch("http://localhost:5000/blogs");
   return (
     <div className="Home">
       {errorstate && <div>{errorstate}</div>}
