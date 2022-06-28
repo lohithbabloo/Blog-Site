@@ -4,7 +4,7 @@ import Usefetch from "./usefetch";
 import { useNavigate } from "react-router-dom";
 
 
-const blogdetails = (props) => {
+const Blogdetails = (props) => {
     let {id} = useParams();
     const {data:blogs,error,loading} = Usefetch(`http://localhost:5000/blogs/${id}`);
     const history = useNavigate()
@@ -33,4 +33,4 @@ const blogdetails = (props) => {
     )
 }
  
-export default blogdetails;
+export default Blogdetails;
