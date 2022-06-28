@@ -5,7 +5,7 @@ import {   useNavigate } from 'react-router-dom'
 const Create = () => {
     const [title,setTitle] = useState('')
     const [body,setbody] = useState('')
-    const [author,setauthor] = useState('you')
+    const [author,setauthor] = useState('')
     const [isloading,setisloading] = useState(false)
     const history = useNavigate()
     const handleSubmit = (e)=>
@@ -42,13 +42,13 @@ const Create = () => {
                 onChange={(e)=>setbody(e.target.value)}
                 ></textarea>
                 <label >Blog Author</label>
-                <select
+                <input
+                type="text"
+                required
                 value={author}
                 onChange={(e)=>setauthor(e.target.value)}
                 >
-                    <option value="you">you</option>
-                    <option value="me">me</option>
-                </select>
+                </input>
                 {!isloading && <button>Add Blog</button>}
                 {isloading && <button>Adding your Blog....</button>}
             </form>
