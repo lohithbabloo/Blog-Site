@@ -25,4 +25,5 @@ const Usefetch = (url) => {
   }, [url]);
   return { data, isloading, errorstate };
 };
+
 export default Usefetch;

@@ -11,7 +11,6 @@ function App() {
     <Router>
       <Navbar />
         <div className="content">
-     
         <Routes>
           <Route  path="/" element={<Home />}>
           </Route>

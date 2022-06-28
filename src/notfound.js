@@ -9,5 +9,4 @@ const Notfound = () => {
         </div>
     );
 }
- 
-export default Notfound
+ export default Notfound

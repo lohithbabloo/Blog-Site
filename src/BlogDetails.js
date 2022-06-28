@@ -4,7 +4,6 @@ import Usefetch from "./usefetch";
 import { useNavigate } from "react-router-dom";
 
 
-
 const blogdetails = (props) => {
     let {id} = useParams();
     const {data:blogs,error,loading} = Usefetch(`http://localhost:5000/blogs/${id}`);
